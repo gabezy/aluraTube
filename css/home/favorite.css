@@ -1,0 +1,19 @@
+.favorite ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.favorite-list a {
+  display: grid;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.favorite-list img {
+  margin-inline: auto;
+}
+.favorite-list p {
+  font-size: 12px;
+  line-height: 18px;
+}

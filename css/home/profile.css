@@ -1,0 +1,65 @@
+.profile-banner img {
+  max-height: 230px;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-info {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+}
+.profile-info h1 span {
+  display: block;
+  color: #666666;
+}
+.subs {
+  display: flex;
+  padding: 10px 20px;
+  background: #272727;
+  color: #bbbbbb;
+  width: max-content;
+  justify-self: center;
+  align-self: flex-start;
+  border-radius: 25px;
+}
+.social-list {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: end;
+  gap: 16px;
+}
+.social-list li:nth-child(2) {
+  justify-self: start;
+}
+.social-list a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 8px;
+  background: var(--borderBase);
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.social-list img {
+  width: 24px;
+  height: 24px;
+  justify-self: center;
+}
+@media (max-width: 800px) {
+  .profile-info {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+  .social-list {
+    justify-self: center;
+  }
+  .social-list li:last-child {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+}

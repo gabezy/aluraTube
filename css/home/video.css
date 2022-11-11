@@ -1,0 +1,38 @@
+.video {
+  display: grid;
+  gap: 8px;
+}
+.video-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.video-list img {
+  min-width: 300px;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .video-list {
+    flex-direction: column;
+    max-height: 400px;
+  }
+  .video-list a {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0 10px;
+  }
+  .video-list h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .video-list p {
+    font-size: 1rem;
+    grid-column: 2;
+  }
+  .video-list img {
+    max-height: 200px;
+    grid-row: span 4;
+  }
+}

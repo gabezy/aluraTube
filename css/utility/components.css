@@ -1,0 +1,53 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1600px;
+  padding: 0 20px;
+  margin-inline: auto;
+}
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Margin */
+
+.mg-b-4 {
+  margin-bottom: 4px;
+}
+.mg-b-8 {
+  margin-bottom: 8px;
+}
+.mg-b-16 {
+  margin-bottom: 16px;
+}
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+.mg-b-28 {
+  margin-bottom: 28px;
+}
+.mg-b-32 {
+  margin-bottom: 32px;
+}
+.mg-b-40 {
+  margin-bottom: 40px;
+}
+.mg-b-48 {
+  margin-bottom: 48px;
+}
+.mg-b-60 {
+  margin-bottom: 60px;
+}
+.mg-b-72 {
+  margin-bottom: 72px;
+}
+.mg-b-80 {
+  margin-bottom: 80px;
+}
+.mg-b-92 {
+  margin-bottom: 92px;
+}
+.mg-b-120 {
+  margin-bottom: 120px;
+}

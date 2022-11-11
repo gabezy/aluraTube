@@ -1,0 +1,30 @@
+:root {
+  ---ff-primary: "Roboto", sans-serif;
+}
+
+.font-l-b {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+.font-l-m {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+.font-m-b {
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+.font-m {
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+.font-s {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
